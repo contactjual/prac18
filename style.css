@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(52, 4, 4);
+}
+
+img {
+    width: 250px;
+    height: 260px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-sec {
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+    text-align: center;
+    padding: 45px 25px;
+    color: white;
+    margin: 10px auto;
+    position: relative;
+}
+.main-sec h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    /* margin-bottom: 0; */
+    position: absolute;
+    width: 200px;
+    text-align: center;
+}
+.main-sec a {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: rgb(255, 177, 94);
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+.main-sec .para {
+    position: absolute;
+    bottom: 50px;
+    display: block;
+    width: 210px;
+    display: none;
+}
+
+.image:hover .main-sec .para {
+    display: inline;
+    cursor: pointer;
+}
